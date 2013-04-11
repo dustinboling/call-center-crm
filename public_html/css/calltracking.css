@@ -1,0 +1,73 @@
+@import "bootstrap.css";
+@import "jqueryui/smoothness/jquery-ui-1.8.16.custom.css";
+@import "colorbox.css";
+@import "screen.css";
+
+.available_number,
+.selected_number{
+    float: left;
+    width: 150px;
+    margin: 2px 0;
+    text-align: center;
+}
+
+.save_update{
+    display: block;
+    float: left;
+    padding: 2px 4px;
+}
+
+.input.no-margin{
+    margin: 0;
+}
+
+.set_disposition{
+    position:relative;
+    display: block;
+    padding: 8px 20px 8px 8px;
+    color: #555;
+}
+
+.disposition:hover a.set_disposition{
+    background: #eee url(../img/icons/update.png) 95% center no-repeat;
+    color: #555;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.disposition,
+.disposition_list{
+    margin: 0;
+}
+
+.disposition{
+    position: relative;
+}
+
+.disposition_list{
+    display: none;
+    z-index: 1000;
+    position: absolute;
+    top: 35px;
+    left: 5px;
+}
+
+.disposition_list li{
+    min-width: 175px;
+}
+
+.disposition_list a{
+    display: block;
+    color: #555;
+    background: #e6e6e6; 
+    padding: 3px 8px;
+}
+
+#toll_free_container{
+    display: none;
+}
+
+#after_hours_forwarding_container{
+    display: none;
+}

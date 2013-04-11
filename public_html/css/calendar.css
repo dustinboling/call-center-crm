@@ -1,0 +1,74 @@
+
+h1.calendar_header {
+    display:none;
+}
+.calendar .day_num {
+    width : 20px;
+    border : 1px solid #dddddd;
+    text-align : center;
+    background-color : #f9f9f9;
+    font-weight: bold;
+    margin:-11px 0 0 -11px;
+}
+.calendar .day_num a {
+    text-decoration: none;
+}
+.calendar .dead_day,
+.calendar .weekend.dead_day {
+    background-color : #f0f0f0;
+}
+.calendar .weekend {
+    background-color : #f9f9f9;
+}
+.calendar .today,
+.calendar .today.weekend {
+    background-color : #ffffcc;
+}
+.calendar .week_link {
+    display:block;
+    width:16px;
+    height:16px;
+    background-image: url('/img/icons/calendar_select_week.png');
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+.appointment {
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    margin-top:2px;
+    padding: 0 0 2px 19px;
+    background-position: 1px 1px;
+    border: 3px solid #ccc;
+}
+.calendar .appointment a {
+    display:block;
+    text-decoration: none;
+}
+.calendar .appointment.event {
+    background-image: url('/img/icons/calendar_select_day.png');
+    background-repeat: no-repeat;
+}
+.calendar .appointment.task {
+    background-image: url('/img/icons/clipboard.png');
+    background-repeat: no-repeat;
+}
+.working {
+    background-color: #d6f39c;
+    border: 3px solid #d6f39c;
+}
+.overdue {
+    background-color:#f4c8c5;
+    border: 3px solid #f4c8c5;
+}
+.suspended {
+    background-color:#f0f0f0;
+    border: 3px solid #f0f0f0;
+}
+.completed {
+    background-color:#caeffe;
+    border: 3px solid #caeffe;
+}
+.first_reschedule {
+    border: 3px solid #f49a93;
+}
